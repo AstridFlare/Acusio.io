@@ -4,7 +4,7 @@ export default class Blog extends Component {
 	render() {
 		return (
 			<div className="container row blog-list	">
-				<ul className="collection col s12 m6">
+				<ul className="collection col s12 m6 offset-m3">
 					<li className="collection-item avatar">
 						<a href="/" className=" btn btn-floating pink lighten-1 circle">
 							AF

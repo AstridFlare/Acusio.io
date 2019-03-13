@@ -1,3 +1,21 @@
 .blog-list {
 	margin-top: 3em;
 }
+
+.form-padding {
+	padding: 5em;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.home-content {
+	margin-top: 2em;
+}

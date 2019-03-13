@@ -9,7 +9,7 @@ export default class Navbar extends Component {
 					<nav className="nav-wrapper black">
 						<div className="container">
 							<a href="/" className="brand-logo">
-								Acusio Technologies
+								Acusio
 							</a>
 							<a href="/" className="sidenav-trigger" data-target="mobile-links">
 								<i className="material-icons">menu</i>
@@ -18,9 +18,7 @@ export default class Navbar extends Component {
 								<li>
 									<NavLink to="/">Home</NavLink>
 								</li>
-								<li>
-									<NavLink to="/about">About</NavLink>
-								</li>
+
 								<li>
 									<NavLink to="/blog">Blog</NavLink>
 								</li>

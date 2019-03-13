@@ -6,33 +6,53 @@ export default class SignIn extends Component {
 			<div className="container blog-list">
 				<div className="card">
 					<div className="row">
-						<form className="col s12">
+						<form className="col s12 form-padding">
 							<div className="row">
 								<div className="input-field col s6">
 									<input id="first_name" type="text" className="validate" />
-									<label for="first_name">First Name</label>
+									<label htmlFor="first_name">First Name</label>
 								</div>
 								<div className="input-field col s6">
 									<input id="last_name" type="text" className="validate" />
-									<label for="last_name">First Name</label>
+									<label htmlFor="last_name">First Name</label>
+								</div>
+							</div>
+
+							<div className="row">
+								<div className="input-field col s12">
+									<input id="email" type="email" className="validate" />
+									<label htmlFor="email">Email</label>
+								</div>
+							</div>
+
+							<div className="row">
+								<div className="input-field col s12">
+									<input id="password" type="password" className="validate" />
+									<label htmlFor="password">Password</label>
+								</div>
+							</div>
+							<div className="center">
+								<div className="input-field ">
+									<button
+										className="btn pulse waves-effect waves-light pink"
+										type="submit"
+										name="action"
+									>
+										Login
+										<i className="material-icons right">send</i>
+									</button>
 								</div>
 							</div>
 						</form>
 					</div>
 				</div>
 			</div>
-
-			// <div class="row">
-			// 	<form className="col s12">
-			// 		<div className="row">
-			// 			<div className="input-field col s6">
-			// 				<input placeholder="Placeholder" id="first_name" type="text" className="validate">
-			// 					<label for="first_name">First Name</label>
-			// 				</input>
-			// 			</div>
-			// 		</div>
-			// 	</form>
-			// </div>
 		);
 	}
 }
+
+// <div class="row">
+//     <div class="input-field col s12">
+//          <input id="password" type="password" class="validate">
+//             <label for="password">Password</label>
+// </div>
