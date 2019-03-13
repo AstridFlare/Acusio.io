@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class SignIn extends Component {
 	render() {
 		return (
-			<div className="container blog-list">
+			<div className="container sign-in">
 				<div className="card">
 					<div className="row">
 						<form className="col s12 form-padding">
@@ -14,7 +14,7 @@ export default class SignIn extends Component {
 								</div>
 								<div className="input-field col s6">
 									<input id="last_name" type="text" className="validate" />
-									<label htmlFor="last_name">First Name</label>
+									<label htmlFor="last_name">Last Name</label>
 								</div>
 							</div>
 

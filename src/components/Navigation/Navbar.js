@@ -24,7 +24,7 @@ export default class Navbar extends Component {
 								</li>
 
 								<li>
-									<a href="/" className=" btn btn-floating pink lighten-1">
+									<a href="/" className=" btn btn-floating pink darken-1">
 										AF
 									</a>
 								</li>
