@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 //importing components
 import Navbar from './components/Navigation/Navbar';
+import Blog from './components/Blog/Blog';
+import SignIn from './components/Auth/SignIn';
 
 class App extends Component {
 	render() {
@@ -11,6 +13,10 @@ class App extends Component {
 			<BrowserRouter>
 				<div className="App">
 					<Navbar />
+					<Switch>
+						<Route path="/blog" component={Blog} />
+						<Route path="/signin" component={SignIn} />
+					</Switch>
 				</div>
 			</BrowserRouter>
 		);

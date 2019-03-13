@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default class Navbar extends Component {
 	render() {
@@ -15,13 +16,13 @@ export default class Navbar extends Component {
 							</a>
 							<ul className="right hide-on-med-and-down">
 								<li>
-									<a href="/">Home</a>
+									<NavLink to="/">Home</NavLink>
 								</li>
 								<li>
-									<a href="/">About</a>
+									<NavLink to="/about">About</NavLink>
 								</li>
 								<li>
-									<a href="/">Blog</a>
+									<NavLink to="/blog">Blog</NavLink>
 								</li>
 
 								<li>
@@ -30,13 +31,10 @@ export default class Navbar extends Component {
 									</a>
 								</li>
 								<li>
-									<a href="/">Sign In</a>
+									<NavLink to="/signin">Sign In</NavLink>
 								</li>
 								<li>
-									<a href="/">Sign Up</a>
-								</li>
-								<li>
-									<a href="/">Log Out</a>
+									<NavLink to="/signout">Sign Out</NavLink>
 								</li>
 							</ul>
 						</div>
