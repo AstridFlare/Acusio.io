@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import M from 'materialize-css/dist/js/materialize.min.js';
+import 'materialize-css/dist/css/materialize.min.css';
 
 export default class Navbar extends Component {
+	componentDidMount() {
+		var elem = document.querySelector('.sidenav');
+		var instance = M.Sidenav.init(elem, {
+			edge: 'left',
+			inDuration: 250
+		});
+	}
 	render() {
 		return (
 			<React.Fragment>
@@ -39,15 +48,21 @@ export default class Navbar extends Component {
 					</nav>
 				</div>
 
-				<ul className="sidenav" id="mobile-links">
+				<ul className="sidenav black " id="mobile-links">
 					<li>
-						<a href="/">Home</a>
+						<a className="white-text" href="/">
+							Home
+						</a>
 					</li>
 					<li>
-						<a href="/">About</a>
+						<a className="white-text" href="/">
+							Blog
+						</a>
 					</li>
 					<li>
-						<a href="/">Contact</a>
+						<a className="white-text" href="/">
+							Contact
+						</a>
 					</li>
 				</ul>
 			</React.Fragment>

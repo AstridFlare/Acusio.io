@@ -1,5 +1,5 @@
 .blog-list {
-	margin-top: 3em;
+	margin-top: 3em !important;
 }
 
 .form-padding {
@@ -17,13 +17,13 @@ main {
 }
 
 .home-content {
-	margin-top: 2em;
+	margin-top: 2em !important;
 }
 
 .sign-in {
-	margin-top: 10em;
+	margin-top: 10em !important;
 }
 
 .team-section {
-	padding: 2em;
+	padding: 2em !important;
 }
