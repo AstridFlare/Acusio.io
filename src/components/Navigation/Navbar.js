@@ -18,7 +18,7 @@ export default class Navbar extends Component {
 					<nav className="nav-wrapper black">
 						<div className="container">
 							<a href="/" className="brand-logo">
-								Acusio
+								ACUSIO
 							</a>
 							<a href="/" className="sidenav-trigger" data-target="mobile-links">
 								<i className="material-icons">menu</i>
@@ -49,6 +49,7 @@ export default class Navbar extends Component {
 				</div>
 
 				<ul className="sidenav black " id="mobile-links">
+					<li className="bold center white-text">Acusio Technologies</li>
 					<li>
 						<a className="white-text" href="/">
 							Home

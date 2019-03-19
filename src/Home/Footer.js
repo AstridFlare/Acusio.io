@@ -21,7 +21,7 @@ export default class componentName extends Component {
 					</div>
 					<div className="footer-copyright">
 						<div className="container">
-							<p className="center">© 2019 Acusio Technologies</p>
+							<p className="center">© 2019 Acusio Technologies, LLC</p>
 						</div>
 					</div>
 				</footer>
@@ -29,10 +29,3 @@ export default class componentName extends Component {
 		);
 	}
 }
-
-// <div className="col l6 s12">
-// 								<h5 className="white-text">Acusio Technologies</h5>
-// 								<p className="grey-text text-lighten-4">
-// 									You can use rows and columns here to organize your footer content.
-// 								</p>
-// 							</div>

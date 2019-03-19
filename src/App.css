@@ -32,3 +32,17 @@ main {
 	margin-right: 1em;
 	font-size: 1.5em;
 }
+
+.indicator-item {
+	background-color: #ffffff !important;
+	opacity: 0 !important;
+}
+
+.indicator-item.active {
+	background-color: #ffffff !important;
+	opacity: 0 !important;
+}
+
+.home {
+	background-color: black;
+}

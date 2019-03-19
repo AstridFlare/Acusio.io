@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 
-import AcusioVideo from './AcusioVideo';
-import Team from './Team';
+import LandingPage from './LandingPage';
+// import AcusioVideo from './AcusioVideo';
+// import Team from './Team';
 import Footer from './Footer';
 
 export default class Home extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<AcusioVideo />
-				<Team />
+				<LandingPage />
+				<Footer />
+				<Footer />
+				<Footer />
+				<Footer />
 				<Footer />
 			</React.Fragment>
 		);
