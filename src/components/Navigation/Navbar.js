@@ -54,7 +54,11 @@ export default class Navbar extends Component {
 				</div>
 
 				<ul className="sidenav black " id="mobile-links">
-					<li className="bold center white-text">Acusio Technologies</li>
+					<li className="bold center white-text">
+						<img src="favicon.ico" alt="logo" />
+						<hr />
+						Acusio Technologies
+					</li>
 					<li>
 						<a className="white-text" href="/">
 							Home

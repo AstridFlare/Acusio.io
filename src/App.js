@@ -6,8 +6,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navigation/Navbar';
 import Blog from './components/Blog/Blog';
 import SignIn from './components/Auth/SignIn';
-import Home from './components/Home/Home';
-import Contact from './components/contact';
+import Home from './components/Pages/Home';
+import Contact from './components/Pages/Contact';
 
 class App extends Component {
 	render() {

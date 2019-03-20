@@ -11,18 +11,18 @@ export default class LandingPage extends Component {
 	}
 	render() {
 		return (
-			<div class="slider fullscreen">
-				<ul class="slides">
+			<div className="slider fullscreen">
+				<ul className="slides">
 					<li>
 						<img
 							src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/ZUY6S38/videoblocks-night-view-over-new-york-city-4k-time-lapse_svfbu52bw_thumbnail-full01.png"
 							alt="new york"
 						/>
-						<div class="caption center-align">
+						<div className="caption center-align">
 							<h3 className="bold">Acusio Technologies</h3>
 							<hr />
 							<br />
-							<h5 class="light grey-text text-lighten-3">
+							<h5 className="light grey-text text-lighten-3">
 								Developing a cohesive and personalized user experience that augments human cognitive
 								ability | Startup
 							</h5>
