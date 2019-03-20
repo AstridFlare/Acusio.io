@@ -10,10 +10,16 @@ export default class componentName extends Component {
 							<div className="col l6 offset-l3 s12">
 								<div className="divider" />
 								<div className="section center">
-									<i className="fab fa-facebook space" />
-									<i className="fab fa-youtube space" />
+									<a href="https://www.linkedin.com/company/acusio-technologies">
+										<i className="fab fa-facebook space" />
+									</a>
+									<a href="https://www.youtube.com/channel/UCqRcU50cu7jO3DyWDNpMhvA/videos">
+										<i className="fab fa-youtube space" />
+									</a>
 
-									<i className="fab fa-linkedin space" />
+									<a href="https://www.linkedin.com/company/acusio-technologies">
+										<i className="fab fa-linkedin space" />
+									</a>
 								</div>
 								<div className="divider" />
 							</div>

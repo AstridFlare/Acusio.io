@@ -6,13 +6,10 @@
 	padding: 5em;
 }
 
-body {
+.footer-body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-}
-
-main {
 	flex: 1 0 auto;
 }
 
@@ -41,8 +38,4 @@ main {
 .indicator-item.active {
 	background-color: #ffffff !important;
 	opacity: 0 !important;
-}
-
-.home {
-	background-color: black;
 }

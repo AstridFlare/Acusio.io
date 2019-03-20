@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import 'materialize-css/dist/css/materialize.min.css';
 
+import Footer from '../Home/Footer';
+
 export default class Navbar extends Component {
 	componentDidMount() {
 		var elem = document.querySelector('.sidenav');
@@ -25,11 +27,14 @@ export default class Navbar extends Component {
 							</a>
 							<ul className="right hide-on-med-and-down">
 								<li>
-									<NavLink to="/">Home</NavLink>
+									<a href="/">Home</a>
 								</li>
 
 								<li>
 									<NavLink to="/blog">Blog</NavLink>
+								</li>
+								<li>
+									<NavLink to="/contact">Contact</NavLink>
 								</li>
 
 								<li>
@@ -56,14 +61,28 @@ export default class Navbar extends Component {
 						</a>
 					</li>
 					<li>
-						<a className="white-text" href="/">
+						<a className="white-text" href="/blog">
 							Blog
 						</a>
 					</li>
 					<li>
-						<a className="white-text" href="/">
+						<a className="white-text" href="/contact">
 							Contact
 						</a>
+					</li>
+
+					<li>
+						<a href="/signin" className="white-text">
+							Sign In
+						</a>
+					</li>
+					<li>
+						<a href="/signout" className="white-text">
+							Sign Out
+						</a>
+					</li>
+					<li>
+						<Footer />
 					</li>
 				</ul>
 			</React.Fragment>
