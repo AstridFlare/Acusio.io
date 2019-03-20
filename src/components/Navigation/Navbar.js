@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import 'materialize-css/dist/css/materialize.min.css';
 
-import Footer from '../Home/Footer';
+import Footer from '../Containers/Footer';
 
 export default class Navbar extends Component {
 	componentDidMount() {

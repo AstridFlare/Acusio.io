@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Team from '../Home/Team';
-import Footer from '../Home/Footer';
+import Team from '../Containers/Team';
+import Footer from '../Containers/Footer';
 
 export default class Contact extends Component {
 	render() {
